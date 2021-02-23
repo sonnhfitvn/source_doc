@@ -1,18 +1,18 @@
 module.exports = {
   title: 'Leadzengine',
   tagline: 'Document for leadz system',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://docs.leadzengine.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'sonnhfitvn', // Usually your GitHub org/user name.
+  projectName: 'sonnhfitvn.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Leadz',
         src: 'img/logo.svg',
       },
       items: [
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Leadzengine.`,
     },
   },
   presets: [
